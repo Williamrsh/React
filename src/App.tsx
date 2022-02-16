@@ -1,20 +1,15 @@
 import React from 'react';
-import {Grid} from '@material-ui/core';
+import Navbar from './components/estaticos/navbar/Navbar'
+import Footer from './components/estaticos/footer/Footer'
 import Home from './paginas/home/Home';
 import './App.css';
 
 function App() {
   return (
      <>
-        <Grid container spacing={3}>
-          <Grid item ></Grid>
-          <Grid item></Grid>
-          <Grid item></Grid>
-          <Grid item></Grid>
-          <Grid item></Grid>
-          <Grid item></Grid>
-          <Grid item></Grid>
-        </Grid>
+         <Navbar />
+         <Home />
+         <Footer /> 
      </>
   );
 }
