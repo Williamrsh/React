@@ -1,0 +1,14 @@
+.textos1{
+    font-Weight: 'bold' !important;
+}
+.imagem{
+    background-Image:url(https://www.brindel.com.br/wp-content/uploads/2019/10/Caderneta-tipo-Moleskine-8780d1-1600705586.jpg);
+                background-Repeat: no-repeat;
+                width:100vh; 
+                min-Height:100vh;
+                background-Size: cover;
+                background-Position: center;
+}
+.text-decorator-none{
+        text-decoration: none;
+}
