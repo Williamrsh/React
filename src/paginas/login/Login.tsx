@@ -3,7 +3,7 @@ import { Grid, Box, Typography, TextField, Button } from '@material-ui/core';
 import { Link, useHistory } from 'react-router-dom';
 import useLocalStorage from 'react-use-localstorage';
 import { login } from '../../services/Service'
-import UserLogin from '../../models/userLogin';
+import UserLogin from '../../models/UserLogin';
 import './Login.css';
 
 function Login() {
@@ -36,7 +36,6 @@ function Login() {
         e.preventDefault();
         try {
             await login(`/usuarios/logar`, userLogin, setToken)
-
 
             alert('Usuario logado com sucesso!')
         } catch (error) {
