@@ -6,13 +6,13 @@ import './Login.css';
 import { useDispatch } from 'react-redux';
 import { addToken } from '../../store/tokens/actions';
 import { toast } from 'react-toastify';
-import UserLogint from '../../models/UserLogint';
+import UserLogin from '../../models/UserLogin';
 
 function Login() {
     let history = useHistory();
     const dispatch = useDispatch ();
    const [token, setToken] =  useState('');
-    const [userLogin, setUserLogin] = useState<UserLogint>(
+    const [userLogin, setUserLogin] = useState<UserLogin>(
         {
             id: 0,
             usuario: '',
