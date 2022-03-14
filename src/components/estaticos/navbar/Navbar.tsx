@@ -30,8 +30,8 @@ function Navbar() {
     }
     var navbarComponent;
     if(token != ""){
-        navbarComponent = <AppBar position="static">
-        <Toolbar variant="dense">
+        navbarComponent = <AppBar >
+        <Toolbar variant="dense" className='navbar'>
             <Box className='cursor' >
                 <Typography variant="h5" color="inherit">
                     BlogPessoal
@@ -67,7 +67,7 @@ function Navbar() {
                         </Typography>
                     </Box>
                 </Link>
-                <Box mx={1} className='cursor' onClick={goLogout}>
+                <Box mx={1} className='cursor,logout'  onClick={goLogout}>
                     <Typography variant="h6" color="inherit">
                         Logout
                     </Typography>

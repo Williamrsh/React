@@ -6,3 +6,9 @@
 .text-decorator-none{
     text-decoration: none;
 }
+.navbar{
+    background-color: #0D1521;
+}
+.logout{
+    text-align: right;
+}
